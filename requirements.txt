@@ -3,3 +3,6 @@ streamlit
 opencv-python
 mediapipe
 matplotlib
+numpy
+Pillow
+scipy
