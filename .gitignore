@@ -1,0 +1,18 @@
+# Virtual envs & local python
+venv/
+.venv/
+dancepose-310/
+
+# Python junk
+__pycache__/
+*.pyc
+
+# Output & intermediate
+poses*
+output_frames*
+output_videos*
+
+# IDE junk
+.DS_Store
+.vscode/
+.idea/
