@@ -250,4 +250,3 @@ def run_pose_pipeline(input_file="input_videos/dance2.mov"):
 if __name__ == "__main__":
     run_pose_pipeline()
 
-

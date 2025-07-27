@@ -146,6 +146,9 @@
 #     camera.release()
 #     st.info("✅ Webcam turned off. Check the box again to restart!")
 
+
+
+
 import streamlit as st
 import mediapipe as mp
 import numpy as np
@@ -156,7 +159,7 @@ from matplotlib.lines import Line2D
 from PIL import Image
 import io
 
-st.set_page_config(page_title="Dance Stick Figure Maker - Live Fingers 🖐️", layout="centered")
+st.set_page_config(page_title="Show Me The Moves - Live Fingers 🖐️", layout="centered")
 
 st.title("🎥 Live Stick Figure (with Fingers!)")
 st.write("Turn on your webcam to see a stick figure version of yourself with fingers!")
@@ -323,3 +326,5 @@ while run:
 else:
     camera.release()
     st.info("✅ Webcam turned off. Check the box again to restart!")
+
+

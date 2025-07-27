@@ -117,9 +117,9 @@ MARKER_FILE = os.path.join(OUTPUT_DIR, "latest.txt")
 os.makedirs(INPUT_DIR, exist_ok=True)
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-st.set_page_config(page_title="Dance Stick Figure Maker 💃🕺", layout="centered")
+st.set_page_config(page_title="Show Me The Moves 💃🕺", layout="centered")
 
-st.title("💃🕺 Dance Stick Figure Maker")
+st.title("💃🕺 Show Me The Moves")
 st.write("Turn your dance moves into a custom stick figure animation!")
 
 uploaded_file = st.file_uploader(
@@ -207,4 +207,4 @@ st.markdown("---")
 st.markdown("### 🎥 Want to try it live right now?")
 st.page_link("pages/live_version.py", label="🎥 Try Live Stick Figure")
 st.page_link("pages/voice_commands.py", label="🎙️ Voice Commands")
-
+st.page_link("pages/faces.py", label="🎭 Faces and Hands")

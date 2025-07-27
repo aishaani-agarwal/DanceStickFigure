@@ -5,7 +5,7 @@
 5) Run your pose pipeline.
 
 
-# 💃🕺 Dance Stick Figure Maker
+# 💃🕺 Show Me The Moves
 
 Turn your dance moves into a fun stick figure animation — and learn it step-by-step!
 
