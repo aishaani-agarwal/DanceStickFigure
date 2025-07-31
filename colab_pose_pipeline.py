@@ -1,3 +1,5 @@
+#colab_pose_pipeline.py
+
 import sys
 sys.stdout.reconfigure(line_buffering=True)  # ✅ Add this at the top
 
@@ -249,4 +251,16 @@ def run_pose_pipeline(input_file="input_videos/dance2.mov"):
 
 if __name__ == "__main__":
     run_pose_pipeline()
+
+
+
+
+
+
+
+
+
+
+
+
 
