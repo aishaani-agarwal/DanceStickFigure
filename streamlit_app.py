@@ -107,7 +107,6 @@ if uploaded_file is not None:
 st.markdown("---")
 st.markdown("### 🎥 Want to try it live right now?")
 st.page_link("pages/live_version.py", label="🎥 Try Live Stick Figure")
-# st.page_link("pages/voice_commands.py", label="🎙️ Voice Commands")
 st.page_link("pages/faces.py", label="🎭 Faces and Hands")
 
 
