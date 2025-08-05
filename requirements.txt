@@ -17,4 +17,3 @@ numpy
 Pillow
 scipy
 av
-
