@@ -208,12 +208,12 @@ class FaceHandsProcessor(VideoProcessorBase):
                 ax.add_patch(Circle(right_iris, radius=5, color='red'))
 
         # Add face outline if available
-        if len(face) > 10:
-            # Draw face contour
-            face_oval_indices = [10, 151, 9, 8, 168, 6, 148, 176, 149, 150, 136, 172, 58, 132, 93, 234, 127, 162, 21, 54, 103, 67, 109]
-            face_contour = [face[i] for i in face_oval_indices if i < len(face)]
-            if len(face_contour) > 2:
-                draw_lines(face_contour, [(i, i+1) for i in range(len(face_contour)-1)], color="yellow", linewidth=2)
+        # if len(face) > 10:
+        #     # Draw face contour
+        #     face_oval_indices = [10, 151, 9, 8, 168, 6, 148, 176, 149, 150, 136, 172, 58, 132, 93, 234, 127, 162, 21, 54, 103, 67, 109]
+        #     face_contour = [face[i] for i in face_oval_indices if i < len(face)]
+        #     if len(face_contour) > 2:
+        #         draw_lines(face_contour, [(i, i+1) for i in range(len(face_contour)-1)], color="yellow", linewidth=2)
 
         # Convert matplotlib to image
         buf = io.BytesIO()
@@ -264,7 +264,6 @@ st.markdown("""
 - 🔵 **Left Hand**: Cyan blue tracking  
 - 🟠 **Face Landmarks**: Orange dots
 - 🔴 **Eye Iris**: Red circles for precise eye tracking
-- 🟡 **Face Contour**: Yellow outline
 """)
 
 st.info("� **Tip**: Make sure your hands and face are well-lit for better detection!")
